@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stu.pdf.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:id="@+id/text"
+        android:textSize="75px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:id="@+id/status"
+        android:textSize="75px"
+        />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="enter"
+      android:textSize="40px"
+      android:id="@+id/enter"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="175px"
+            android:layout_height="match_parent"
+            android:text="-"
+
+            android:textSize="150px"
+            android:id="@+id/line"/>
+        <Button
+            android:layout_width="175px"
+            android:layout_height="match_parent"
+            android:text="."
+            android:textSize="150px"
+            android:id="@+id/dot"
+            />
+
+
+    </LinearLayout>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="delete"
+      android:textSize="50px"
+      android:id="@+id/delete"/>
+
+</LinearLayout>
+
+</LinearLayout>
